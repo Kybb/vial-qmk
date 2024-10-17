@@ -26,3 +26,7 @@
 // The four corners
 #define VIAL_UNLOCK_COMBO_ROWS { 0, 5, 3, 8 }
 #define VIAL_UNLOCK_COMBO_COLS { 0, 0, 0, 0 }
+
+// мои добавки
+	#define SPLIT_USB_DETECT // !!! Оно, без этого не загружается ведомая Pro Micro !!!
+	#define EE_HANDS		// Левая и правая части определяются через EEPROM при прошивке, либо эта, либо строка ниже
